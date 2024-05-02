@@ -1,5 +1,5 @@
 
-![Codecov](https://codecov.io/gh/tiagoCMatias/FastApiTemplate/branch/main/graph/badge.svg)
+[![codecov](https://codecov.io/gh/tiagoCMatias/FastApiTemplate/graph/badge.svg?token=XBJEKRU2QA)](https://codecov.io/gh/tiagoCMatias/FastApiTemplate)
 
 # FastAPI + SQLAlchemy + Alembic
 
