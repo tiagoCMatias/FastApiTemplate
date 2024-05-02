@@ -1,4 +1,6 @@
 
+![Codecov](https://codecov.io/gh/tiagoCMatias/FastApiTemplate/branch/main/graph/badge.svg)
+
 # FastAPI + SQLAlchemy + Alembic
 
 ## Overview
