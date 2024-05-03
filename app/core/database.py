@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, DeclarativeBase
 from .config import settings  # Assuming you have a config.py for settings
 
 SQLALCHEMY_DATABASE_URL = settings.DATABASE_URL  # Pulled from config
@@ -15,7 +15,9 @@ SessionLocal = sessionmaker(
     bind=engine
 )
 
-Base = declarative_base()
+
+class Base(DeclarativeBase):
+    pass
 
 
 # Dependency to get the database session

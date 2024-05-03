@@ -56,5 +56,5 @@ alembic downgrade -1
 To run tests, use the following command:
 
 ```bash
-pytest
+pytest --cov=app --cov-report=xml
 ```
